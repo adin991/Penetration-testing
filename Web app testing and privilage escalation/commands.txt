@@ -1,0 +1,25 @@
+[DEFINITION]: gobuster command is a brute force tool for directory's and files on web servers, 
+trying to find hidden web pages or simular.
+[IN USE COMMAND]: gobuster dir -u http://[IP adress] -w /usr/shatr/wordlists/dirb/common.txt
+[FLAGS]: 
+-u = URL adress
+-w = file with list of an words which will try
+[ADDITIONAL]: common.txt is a text file which contains words of common direcotry files.
+[EXAMPLES]: 
+# basic
+gobuster dir -u http://10.10.x.x -w /usr/share/wordlists/dirb/common.txt
+
+# with extensions
+gobuster dir -u http://10.10.x.x -w common.txt -x php,html,txt
+
+# with status code
+gobuster dir -u http://10.10.x.x -w common.txt -s 200,301,302
+
+# with more threads (faster)
+gobuster dir -u http://10.10.x.x -w common.txt -t 50
+
+# scanning DNS server
+gobuster dns -d cilj.com -w subdomains.txt
+
+	
+
