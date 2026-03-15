@@ -70,10 +70,13 @@ Script found private SSH keys. The route of the file is seen.
 
 ![image alt](https://github.com/adin991/Penetration-testing/blob/339fef39b841275f7e0851d47fcffa9233120aa7/Web%20app%20testing%20and%20privilage%20escalation/src/25.png)</br>
 
+On the first terminal that I accessed, I found the route and opened it the file is encrypted. RSA is a private key used as SSH authentication instead of a password. </br> 
+
+![image alt](https://github.com/adin991/Penetration-testing/blob/fa71307c8efb7fa5071a1a556b56793eb4fed912/Web%20app%20testing%20and%20privilage%20escalation/src/27.png)</br>
+![image alt](https://github.com/adin991/Penetration-testing/blob/fa71307c8efb7fa5071a1a556b56793eb4fed912/Web%20app%20testing%20and%20privilage%20escalation/src/28.png)</br>
 
 
-![image alt]()</br>
-![image alt]()</br>
+
 ![image alt]()</br>
 ![image alt]()</br>
 ![image alt]()</br>
