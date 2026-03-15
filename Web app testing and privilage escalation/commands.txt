@@ -95,7 +95,7 @@ hydra -l admin -P /usr/share/wordlists/rockyou.txt rdp://10.112.182.26
 
 ===============================================================
 
-[COMMAND]:
+[COMMAND]: john
 [IN USE]:
 [DEFINITION]: 
 [ADDITIONAL]:
@@ -104,5 +104,15 @@ hydra -l admin -P /usr/share/wordlists/rockyou.txt rdp://10.112.182.26
 
 ===============================================================
 
+===============================================================
+
+[COMMAND]:
+[IN USE]:
+[DEFINITION]: 
+[ADDITIONAL]:
+
+[EXAMPLES]:
+
+===============================================================
 
 
