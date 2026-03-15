@@ -83,11 +83,17 @@ Created the .txt file that has an output in a previous picture. </br>
 
 ![image alt](https://github.com/adin991/Penetration-testing/blob/37f7a406517d4b68f0fb1b6cb97d0dc6d56f0cbd/Web%20app%20testing%20and%20privilage%20escalation/src/john.png)</br>
 
-We are now executing a john command, trying to find a password that matches the hash on rockyou.txt document file. Which functions on the principle that every password in the rockyou.txt file is converted in hash, and now we are matching every hash of the password with our hash in our rsa_id_key dokucment. </br>
+We are now executing a john command, trying to find a password that matches the hash on rockyou.txt document file. Which functions on the principle that every password in the rockyou.txt file is converted in hash, and now we are matching every hash of the password with our hash in our key_rsa_id document. So the command found the password called beeswax. </br>
 
 ![image alt](https://github.com/adin991/Penetration-testing/blob/e8ce9992f411e8188e59c319adb01f6e99f848a1/Web%20app%20testing%20and%20privilage%20escalation/src/john%20execution.png)</br>
 
+Using the command ssh to access the second user on the machine kay with a hash we created, it gave us to enter the password we now brute force hash, and it's called beeswax. I entered the password and accessed the kay user account. We used cat pass.bak in the terminal, which gave us the final password we needed to complete the pen test. </br>
 
-![image alt]()</br>
-![image alt]()</br>
-![image alt]()</br>
+![image alt](https://github.com/adin991/Penetration-testing/blob/fb7714b6e4669b06f40db031057475006fe62968/Web%20app%20testing%20and%20privilage%20escalation/src/34.png)</br>
+![image alt](https://github.com/adin991/Penetration-testing/blob/fb7714b6e4669b06f40db031057475006fe62968/Web%20app%20testing%20and%20privilage%20escalation/src/35.png)</br>
+
+[DISCLAMER]: </br>
+
+We accessed the kay user because we didn't have privileges to open the pass.bak file, which is a copy of the original file.
+
+![image alt](https://github.com/adin991/Penetration-testing/blob/fb7714b6e4669b06f40db031057475006fe62968/Web%20app%20testing%20and%20privilage%20escalation/src/password.png)</br>
