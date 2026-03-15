@@ -22,9 +22,18 @@ NOTE: The site is using the HTTP protocol, which isn't encrypting data and has a
 Using the gobuster command explained in the command.txt file, trying to brute force hidden directories. It gets with the result of a /development hidden directory. </br>
 ![image alt](https://github.com/adin991/Penetration-testing/blob/dd7622170b935c5d20aecce142294b80a648a57d/Web%20app%20testing%20and%20privilage%20escalation/src/2.1.png) </br>
 
-Adding /development text to the URL IP address of the web app.
+Adding /development text to the URL IP address of the web app. </br>
 ![image alt](https://github.com/adin991/Penetration-testing/blob/dd7622170b935c5d20aecce142294b80a648a57d/Web%20app%20testing%20and%20privilage%20escalation/src/2.2.png) </br>
 
-Through the new directory, we don't really have any info to continue, and I tried NMAP to see what protocols are open with additional versions. SMB protocol is open.
-![image alt](https://github.com/adin991/Penetration-testing/blob/dd7622170b935c5d20aecce142294b80a648a57d/Web%20app%20testing%20and%20privilage%20escalation/src/3.png)
+Through the new directory, I don't really have any info to continue, and I tried NMAP to see what protocols are open with additional versions. SMB protocol is open. Trying to find information on SMB protocol. </br>
+![image alt](https://github.com/adin991/Penetration-testing/blob/dd7622170b935c5d20aecce142294b80a648a57d/Web%20app%20testing%20and%20privilage%20escalation/src/3.png) </br>
+![image alt](https://github.com/adin991/Penetration-testing/blob/eca896785d1d11b8000762f4f28d4666384782f2/Web%20app%20testing%20and%20privilage%20escalation/src/4.png) </br>
+![image alt](https://github.com/adin991/Penetration-testing/blob/eca896785d1d11b8000762f4f28d4666384782f2/Web%20app%20testing%20and%20privilage%20escalation/src/5.png) </br>
+![image alt](https://github.com/adin991/Penetration-testing/blob/eca896785d1d11b8000762f4f28d4666384782f2/Web%20app%20testing%20and%20privilage%20escalation/src/6.png) </br>
+![image alt](https://github.com/adin991/Penetration-testing/blob/eca896785d1d11b8000762f4f28d4666384782f2/Web%20app%20testing%20and%20privilage%20escalation/src/7.png) </br>
+![image alt](https://github.com/adin991/Penetration-testing/blob/eca896785d1d11b8000762f4f28d4666384782f2/Web%20app%20testing%20and%20privilage%20escalation/src/8.png) </br>
+![image alt](https://github.com/adin991/Penetration-testing/blob/eca896785d1d11b8000762f4f28d4666384782f2/Web%20app%20testing%20and%20privilage%20escalation/src/9.png) </br>
+![image alt](https://github.com/adin991/Penetration-testing/blob/eca896785d1d11b8000762f4f28d4666384782f2/Web%20app%20testing%20and%20privilage%20escalation/src/10.png) </br>
 
+So here I found enueration of the users.
+![image alt](https://github.com/adin991/Penetration-testing/blob/eca896785d1d11b8000762f4f28d4666384782f2/Web%20app%20testing%20and%20privilage%20escalation/src/11.png)</br>
