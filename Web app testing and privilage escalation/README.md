@@ -75,10 +75,14 @@ On the first terminal that I accessed, I found the route and opened it the file 
 ![image alt](https://github.com/adin991/Penetration-testing/blob/fa71307c8efb7fa5071a1a556b56793eb4fed912/Web%20app%20testing%20and%20privilage%20escalation/src/27.png)</br>
 ![image alt](https://github.com/adin991/Penetration-testing/blob/fa71307c8efb7fa5071a1a556b56793eb4fed912/Web%20app%20testing%20and%20privilage%20escalation/src/28.png)</br>
 
-I downloaded a script for brute force hashing of the hash that is given in the RSA file document. I copied the hash code on my machine and created a key_id_rsa text file. I started the script [ssh2john.py](https://github.com/openwall/john/blob/bleeding-jumbo/run/ssh2john.py) for encryption, and now we have another hash that [john command] understands.
+I downloaded a script for brute force hashing of the hash that is given in the RSA file document. I copied the hash code on my machine and created a key_id_rsa text file. I started the script [ssh2john.py](https://github.com/openwall/john/blob/bleeding-jumbo/run/ssh2john.py) for encryption, and now we have another hash that [john script] understands.
 
 ![image alt](https://github.com/adin991/Penetration-testing/blob/900b10e8af5bd6556d9ea4585d702180e94333e5/Web%20app%20testing%20and%20privilage%20escalation/src/31.png)</br>
 
+Created the .txt file that has an output in a previous picture.
 
+![image alt](https://github.com/adin991/Penetration-testing/blob/37f7a406517d4b68f0fb1b6cb97d0dc6d56f0cbd/Web%20app%20testing%20and%20privilage%20escalation/src/john.png)</br>
+![image alt]()</br>
+![image alt]()</br>
 ![image alt]()</br>
 ![image alt]()</br>
