@@ -25,7 +25,8 @@ Using the gobuster command explained in the command.txt file, trying to brute fo
 Adding /development text to the URL IP address of the web app. </br>
 ![image alt](https://github.com/adin991/Penetration-testing/blob/dd7622170b935c5d20aecce142294b80a648a57d/Web%20app%20testing%20and%20privilage%20escalation/src/2.2.png) </br>
 
-Through the new directory, I don't really have any info to continue, and I tried NMAP to see what protocols are open with additional versions. SMB protocol is open. Trying to find information on SMB protocol. </br>
+Through the new directory, I don't really have any info to continue, and I tried NMAP to see what protocols are open with additional versions. SMB protocol is open. Trying to find information on the SMB protocol. SMB protocol is a shared resource inside of the network. Using the command enum4linux to gather information on Linux (or Windows). </br>
+
 ![image alt](https://github.com/adin991/Penetration-testing/blob/dd7622170b935c5d20aecce142294b80a648a57d/Web%20app%20testing%20and%20privilage%20escalation/src/3.png) </br>
 ![image alt](https://github.com/adin991/Penetration-testing/blob/eca896785d1d11b8000762f4f28d4666384782f2/Web%20app%20testing%20and%20privilage%20escalation/src/4.png) </br>
 ![image alt](https://github.com/adin991/Penetration-testing/blob/eca896785d1d11b8000762f4f28d4666384782f2/Web%20app%20testing%20and%20privilage%20escalation/src/5.png) </br>
@@ -35,5 +36,10 @@ Through the new directory, I don't really have any info to continue, and I tried
 ![image alt](https://github.com/adin991/Penetration-testing/blob/eca896785d1d11b8000762f4f28d4666384782f2/Web%20app%20testing%20and%20privilage%20escalation/src/9.png) </br>
 ![image alt](https://github.com/adin991/Penetration-testing/blob/eca896785d1d11b8000762f4f28d4666384782f2/Web%20app%20testing%20and%20privilage%20escalation/src/10.png) </br>
 
-So here I found enueration of the users.
+So here I found an enumeration of the users, kay and jan. Ubuntu is default user. </br>
+
 ![image alt](https://github.com/adin991/Penetration-testing/blob/eca896785d1d11b8000762f4f28d4666384782f2/Web%20app%20testing%20and%20privilage%20escalation/src/11.png)</br>
+
+![image alt]()</br>
+
+![image alt]()</br>
