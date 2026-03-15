@@ -50,19 +50,30 @@ I first tried jan user through the SSH protocol, and I found the password on blu
 
 So I enter the jan user with ssh [name]@[IP address], enter the password, and access the user jan. Additional research through a hierarchy of the machine I access as jan tried to see what files are available and etc. </br>
 
-I started a script [linpeas.sh](https://github.com/peass-ng/PEASS-ng/releases) downloaded on the link. I used 2 windows of the terminal with the command scp to transfer a script from my machine to a machine I am attacking. 
-
 ![image alt](https://github.com/adin991/Penetration-testing/blob/0a1b0b29ab3abfb07fa42e46673de6e2ccded934/Web%20app%20testing%20and%20privilage%20escalation/src/14.png)</br>
+
+I started a script [linpeas.sh](https://github.com/peass-ng/PEASS-ng/releases) downloaded on the link. I used 2 windows of the terminal with the command scp to transfer a script from my machine to a machine I am attacking. </br>
+
 ![image alt](https://github.com/adin991/Penetration-testing/blob/7177c02be9764d85dd772cdf0d2be9c2dac2f851/Web%20app%20testing%20and%20privilage%20escalation/src/17.1.png)</br>
 
+In the next images, you will see the result of the script. </br>
+
+![image alt](https://github.com/adin991/Penetration-testing/blob/339fef39b841275f7e0851d47fcffa9233120aa7/Web%20app%20testing%20and%20privilage%20escalation/src/18.png)</br>
+![image alt](https://github.com/adin991/Penetration-testing/blob/339fef39b841275f7e0851d47fcffa9233120aa7/Web%20app%20testing%20and%20privilage%20escalation/src/19.png)</br>
+![image alt](https://github.com/adin991/Penetration-testing/blob/339fef39b841275f7e0851d47fcffa9233120aa7/Web%20app%20testing%20and%20privilage%20escalation/src/20.png)</br>
+![image alt](https://github.com/adin991/Penetration-testing/blob/339fef39b841275f7e0851d47fcffa9233120aa7/Web%20app%20testing%20and%20privilage%20escalation/src/21.png)</br>
+![image alt](https://github.com/adin991/Penetration-testing/blob/339fef39b841275f7e0851d47fcffa9233120aa7/Web%20app%20testing%20and%20privilage%20escalation/src/22.png)</br>
+![image alt](https://github.com/adin991/Penetration-testing/blob/339fef39b841275f7e0851d47fcffa9233120aa7/Web%20app%20testing%20and%20privilage%20escalation/src/23.png)</br>
+![image alt](https://github.com/adin991/Penetration-testing/blob/339fef39b841275f7e0851d47fcffa9233120aa7/Web%20app%20testing%20and%20privilage%20escalation/src/24.png)</br>
+
+Script found private SSH keys. The route of the file is seen. 
+
+![image alt](https://github.com/adin991/Penetration-testing/blob/339fef39b841275f7e0851d47fcffa9233120aa7/Web%20app%20testing%20and%20privilage%20escalation/src/25.png)</br>
+
+
 
 ![image alt]()</br>
-
 ![image alt]()</br>
 ![image alt]()</br>
 ![image alt]()</br>
 ![image alt]()</br>
-![image alt]()</br>
-![image alt]()</br>
-![image alt]()</br>
-
