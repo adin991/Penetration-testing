@@ -85,34 +85,62 @@ hydra -l admin -P /usr/share/wordlists/rockyou.txt rdp://10.112.182.26
 ===============================================================
 
 [COMMAND]: scp 
-[IN USE]: 
+[IN USE]: scp file.txt user@192.168.1.10:/home/user/
 [DEFINITION]: scp is a command that copy file between two copmuters using SSH protocol. 
-[ADDITIONAL]:
+[ADDITIONAL]: -r = copy folder
+	      -P = specific port
+	      -i = SSH key
+	      -v = debug info 
 
 [EXAMPLES]:
+
+# from remote to local 
+scp korisnik@192.168.1.10:/home/user/fajl.txt /home/user/Desktop/
+
+# one file
+scp dokument.txt user@192.168.1.10:/home/user/
+
+# more files
+scp fajl1.txt fajl2.txt user@192.168.1.10:/home/user/
+
+# whole folder
+scp -r /home/user/projekat user@192.168.1.10:/var/www/
+
+# different port
+scp -P 2222 dokument.txt user@192.168.1.10:/home/user/
+
+# specified SSH key in use
+scp -i key.pem file.txt user@192.168.1.10:/tmp/
+
+
 
 ===============================================================
 
 ===============================================================
 
 [COMMAND]: john
-[IN USE]:
-[DEFINITION]: 
-[ADDITIONAL]:
+[IN USE]: john file.txt --wordlist=/usr/share/wordlists/rockyou.txt
+[DEFINITION]: john is a tool for brute forcing passwords using hash, trying every different combitnation from --wordlist
+ text file. [HASH in the file.txt -> john -> rockyou.txt (password -> hash) -> comparison -> plain text password] 
+[ADDITIONAL]: --format=md5 sha256 ntlm bcrypt  = type of format
+	      --list = list of formats
+
 
 [EXAMPLES]:
 
-===============================================================
+# Dictionary attack (wordlist)
+john --wordlist=rockyou.txt hash.txt
+
+# Brute force (every combo)
+john --incremental hash.txt
+
+# Rule based (multipy wordlist, abc123 → Abc123!)
+john --wordlist=rockyou.txt --rules hash.txt
+
+# Mask attack (we know part of the password)
+john --mask=?u?l?l?l?d?d hash.txt
 
 ===============================================================
 
-[COMMAND]:
-[IN USE]:
-[DEFINITION]: 
-[ADDITIONAL]:
-
-[EXAMPLES]:
-
-===============================================================
 
 
