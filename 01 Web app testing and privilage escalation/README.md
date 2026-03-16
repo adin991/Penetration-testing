@@ -1,13 +1,11 @@
-In this set of tasks, the following:
+In this set of tasks, I done the following:
 
 brute forcing </br>
 hash cracking </br>
 service enumeration </br>
 Linux Enumeration </br>
 </br>
-Web app testing and privilege escalation </br>                                
-This is a documented log of a step-by-step process of an Act. </br>
-</br>
+Web app testing and privilege escalation. This is a documented log of a step-by-step process. </br>
 Connected to a server through a VPN service. Testing connectivity on private server through </br>
 command ping. </br>
 Nmap scanning reports protocols and services on the web app. </br>
