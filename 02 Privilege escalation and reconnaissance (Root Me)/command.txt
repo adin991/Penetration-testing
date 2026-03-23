@@ -1,0 +1,46 @@
+===============================================================
+
+[COMMAND]: wget
+[IN USE]: command used for downloading file with a URL link
+[DEFENITION]: wget [URL]
+[ADDITIONAL]: none
+
+[EXAMPLES]:
+
+# download file
+wget http://10.10.x.x/fajl.txt
+
+# download with a new name
+wget -O novi-naziv.txt http://10.10.x.x/fajl.txt
+
+# download whole website
+wget -r http://cilj.com
+
+# continue canceled download
+wget -c http://cilj.com/veliki-fajl.zip
+
+# download in background
+wget -b http://cilj.com/fajl.zip
+
+# without checking for SSL certificate
+wget --no-check-certificate https://cilj.com/fajl.txt
+
+===============================================================
+
+===============================================================
+
+[COMMAND]: nc 
+[IN USE]: nc -lvp [PORT NUMBER]
+[DEFENITION]: listening on specific port
+[ADDITIONAL]: -l = listening mode
+	      -v = details
+	      -p = port
+
+[EXAMPLES]:
+
+===============================================================
+
+
+
+PHP nije dozvoljeno
+
