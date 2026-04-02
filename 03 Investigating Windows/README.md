@@ -25,10 +25,26 @@ Now, name of the scheduled tasks that are malicious, here I get the Idea which i
 
 ![image_alt](https://github.com/adin991/Penetration-testing-CTF/blob/d335215b1db61ff0f40e1d60a92e49946a6a276d/03%20Investigating%20Windows/src/7.png) </br>
 
+For falshupdate I see -WindowStyle hidden, also "update windows" in Internet Explorer is very obvious because WindowsUpdate is in Windows\temp\...  
+
+![image_alt](https://github.com/adin991/Penetration-testing-CTF/blob/43a88a3f033e40a2fd313de917637340354fe3aa/03%20Investigating%20Windows/src/ad-1.png) </br>
+![image_alt](https://github.com/adin991/Penetration-testing-CTF/blob/43a88a3f033e40a2fd313de917637340354fe3aa/03%20Investigating%20Windows/src/ad-1.png) </br>
+
+
 
 
 ![image_alt]() </br>
 ![image_alt]() </br>
 ![image_alt]() </br>
 ![image_alt]() </br>
+![image_alt]() </br>
+
+![image_alt]() </br>
+![image_alt]() </br>
+![image_alt]() </br>
+
+![image_alt]() </br>
+![image_alt]() </br>
+![image_alt]() </br>
+
 
