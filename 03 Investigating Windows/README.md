@@ -28,13 +28,15 @@ Now, name of the scheduled tasks that are malicious, here I get the Idea which i
 For falshupdate I see -WindowStyle hidden, also "update windows" in Internet Explorer is very obvious because WindowsUpdate is in Windows\temp\...  
 
 ![image_alt](https://github.com/adin991/Penetration-testing-CTF/blob/43a88a3f033e40a2fd313de917637340354fe3aa/03%20Investigating%20Windows/src/ad-1.png) </br>
-![image_alt](https://github.com/adin991/Penetration-testing-CTF/blob/43a88a3f033e40a2fd313de917637340354fe3aa/03%20Investigating%20Windows/src/ad-1.png) </br>
+![image_alt](https://github.com/adin991/Penetration-testing-CTF/blob/43a88a3f033e40a2fd313de917637340354fe3aa/03%20Investigating%20Windows/src/ad-2.png) </br>
+
+Here I found 2 ways to identify the file that was trying to run daily. (nc.ps1) </br>
+
+![image_alt](https://github.com/adin991/Penetration-testing-CTF/blob/73d266148d9e7da426125e285ff1d11acd4c2272/03%20Investigating%20Windows/src/8.png) </br>
+![image_alt](https://github.com/adin991/Penetration-testing-CTF/blob/73d266148d9e7da426125e285ff1d11acd4c2272/03%20Investigating%20Windows/src/ad-3.png) </br>
 
 
 
-
-![image_alt]() </br>
-![image_alt]() </br>
 ![image_alt]() </br>
 ![image_alt]() </br>
 ![image_alt]() </br>
